@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts>
+	<action name="login" class="web.LoginAction">
+		<result name="success">/jsp/success.jsp</result>
+		<result name="false">/jsp/login.jsp</result>
+	</action>
+</struts>
